@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GameWorld - Kontakt</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" 
+    integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" 
+    crossorigin="anonymous"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="navbar__container">
+            <a href="index.html" id="navbar__logo">
+                <i class="fas fa-gamepad"></i> GAMEWORLD
+            </a>
+            <div class="navbar__toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar__menu">
+                <li class="navbar__item">
+                    <a href="index.html" class="navbar__links">Strona Główna</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="form.html" class="navbar__links">Kontakt</a>
+                </li>
+                <li>
+                    <a href="sklep.html" class="navbar__links">Produkty</a>
+                </li>
+                <li>
+                    <a href="aboutus.html" class="navbar__links">O nas</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="main__container">
+        <div class="main__content" id="forms">
+            <fieldset>
+                <legend>KONTAKT</legend>
+                <form action="form.php" method="post">
+                    <p>Twój e-mail:<input type="text" name="email" required></p>
+                    <p>Twoje Imię:<input type="text" name="imie" required></p>
+                    <p>Twój numer telefonu:<input type="text" name="numer_telefonu"></p>
+                    <p>Wybierz sprawę:
+                        <select name="sprawa">
+                            <option value="zapytanie">Zapytanie</option>
+                            <option value="skarga">Skarga</option>
+                            <option value="propozycja">Propozycja</option>
+                            <option value="inne">Inne</option>
+                        </select>
+                    </p>
+                    <br>
+                    Dodaj swój komentarz: <br>
+                    <textarea name="komentarz" cols="50" rows="2">Wpisz komentarz...</textarea>
+                    <br><br>
+                    <input type="submit" value="wyslij">
+                    <input type="reset" value="wyczyść">
+                </form>
+            </fieldset>
+        </div>
+    </div>
+
+    <div class="footer__container">
+        <div class="footer__links">
+            <div class="footer__link--wrapper">
+                <div class="footer__link--items">
+                    <h2>Skontanktuj się z nami</h2>
+                    <a href="tech.html">Kontankt</a>
+                    <a href="#">Lub pod numerem 123456789</a>
+                    <a href="#">Adres: Oleska 48, 45-052, Opole</a>
+                </div>
+            </div>
+            <div class="footer__link--wrapper">
+                <div class="footer__link--items">
+                    <h2>Social Media</h2>
+                    <a href="https://www.instagram.com">Instagram</a>
+                    <a href="https://www.facebook.com">Facebook</a>
+                    <a href="https://www.youtube.com">YouTube</a>
+                    <a href="https://www.tiktok.com/explore?">TikTok</a>
+                    <a href="https://twitter.com">Twitter</a>
+                    <a href="https://pl.linkedin.com">LinkedIn</a>
+                </div>
+            </div>
+        </div>
+        <div class="social__media">
+            <div class="social__media--wrap">
+                <div class="footer__logo">
+                    <a href="" id="footer__logo">
+                        <i class="fas fa-gamepad"></i>GAMEWORLD
+                    </a>
+                </div>
+                <p class="website__rights">@GAMEWORLD 2023. All rights reserved</p>
+                <div class="socials__icons">
+                    <a href="https://www.facebook.com" class="social__icon--link" target="_blank">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                    <a href="https://www.instagram.com" class="social__icon--link" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://www.youtube.com" class="social__icon--link" target="_blank">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                    <a href="https://www.tiktok.com/explore?" class="social__icon--link" target="_blank">
+                        <i class="fab fa-tiktok"></i>
+                    </a>
+                    <a href="https://twitter.com" class="social__icon--link" target="_blank">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="https://pl.linkedin.com" class="social__icon--link" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
