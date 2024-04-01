@@ -21,7 +21,8 @@ Additionally, there are CSS files (`style.css`, `addtocart.css`, `text.css`) for
 - Shopping Cart: Users can view and manage the items added to their cart.
 
 ## Usage
-To use this project, simply clone the repository to your local machine and open the HTML files in a web browser.
+To use this project, simply clone the repository to your local machine and open the HTML files in a web browser 
+or use this link: https://szuszu12.github.io/GameWorld/index.html
 
 ```bash
 git clone https://github.com/Szuszu12/GameWorld.git
