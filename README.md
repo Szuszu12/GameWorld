@@ -12,7 +12,7 @@ The project is structured into several HTML files:
 - `formularz.html`: Contact form for users to get in touch with the company.
 - `sklep.html`: Product store where users can browse and purchase games.
 
-Additionally, there are CSS files (`style.css`, `addtocart.css`, `text.css`) for styling the website, a JavaScript file (`cart.js`) for handling shopping cart functionality, and a PHP file (`form.php`) for connecting to the database phpMyAdmin.
+Additionally, there are CSS files (`style.css`, `addtocart.css`) for styling the website, a JavaScript file (`cart.js`) for handling shopping cart functionality, and a PHP file (`form.php`) for connecting to the database phpMyAdmin.
 
 ## Features
 - Navigation: Users can navigate through different sections of the website using the navbar.
