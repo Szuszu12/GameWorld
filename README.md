@@ -27,6 +27,3 @@ or use this link to open page in browser: https://szuszu12.github.io/GameWorld/i
 ```
 git clone https://github.com/Szuszu12/GameWorld.git
 ```
-## Credits
-
-- **Developer**: Szuszu12
